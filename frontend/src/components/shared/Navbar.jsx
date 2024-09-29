@@ -60,7 +60,7 @@ const Navbar = () => {
           </ul>
           {!user ? (
             <div className="flex items-center gap-2">
-              <Link to="/">
+              <Link to="/login">
                 <Button variant="outline">Login</Button>
               </Link>
               <Link to="/signup">
