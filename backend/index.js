@@ -19,7 +19,11 @@ app.use(cookieParser());
 
 // CORS Configuration
 const corsOptions = {
-    origin: ['https://jobconnect-hag.netlify.app', 'http://localhost:5173'], // Replace with your frontend URL
+    origin: [
+        'https://jobconnect-hag.netlify.app',
+        'http://localhost:5173',
+        'http://localhost:5174',
+    ], // Replace with your frontend URL
     credentials: true, // Allow credentials (cookies, etc.)
 };
 

@@ -6,7 +6,7 @@
         "backend": "npm --prefix backend run dev",
         "frontend": "npm --prefix frontend run dev",
         "start": "concurrently -k \"npm run backend\" \"npm run wait-then-frontend\"",
-        "wait-then-frontend": "wait-on tcp:5000 && npm run frontend"
+        "wait-then-frontend": "wait-on tcp:8000 && npm run frontend"
     },
     "devDependencies": {
         "concurrently": "^8.0.0",
